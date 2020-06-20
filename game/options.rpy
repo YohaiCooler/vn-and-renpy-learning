@@ -23,13 +23,15 @@ define gui.show_name = True
 
 ## Версия игры.
 
-define config.version = "1.0"
+define config.version = "0.1"
 
 
 ## Текст, помещённый в экран "Об игре". Поместите текст между тройными скобками.
 ## Для отделения абзацев оставляйте между ними пустую строку.
 
-define gui.about = _p("""
+define gui.about = _p(""" Учусь и пробую!
+
+Живу и страдаю!
 """)
 
 
@@ -37,7 +39,7 @@ define gui.about = _p("""
 ## постройке дистрибутивов. Оно должно содержать текст формата ASCII и не должно
 ## содержать пробелы, двоеточия и точки с запятой.
 
-define build.name = "learn"
+define build.name = "LN"
 
 
 ## Звуки и музыка ##############################################################
@@ -54,15 +56,15 @@ define config.has_voice = True
 ## Чтобы разрешить игроку тестировать громкость на звуковом или голосовом
 ## каналах, раскомментируйте строчку и настройте пример звука для прослушивания.
 
-# define config.sample_sound = "sample-sound.ogg"
-# define config.sample_voice = "sample-voice.ogg"
+ #define config.sample_sound = "sample-sound.ogg"
+ #define config.sample_voice = "sample-voice.ogg"
 
 
 ## Раскомментируйте следующую строчку, чтобы настроить аудиофайл, который будет
 ## проигрываться в главном меню. Этот файл продолжит проигрываться во время
 ## игры, если не будет остановлен, или не начнёт проигрываться другой аудиофайл.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+#define config.main_menu_music = "main-menu-theme.ogg"
 
 
 ## Переходы ####################################################################
